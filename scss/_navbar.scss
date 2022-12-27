@@ -1,0 +1,29 @@
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: $color-principal;
+
+  ul {
+    list-style: none;
+    display: flex;
+
+    li {
+      margin-right: 1rem;
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.barraBusqueda {
+  background-color: $color-principal;
+}

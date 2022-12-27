@@ -1,0 +1,25 @@
+.logoInfoHeader {
+  background-color: rgb(141, 32, 32);
+
+  div {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 10px 0 0;
+
+    img {
+      width: auto;
+      height: auto;
+    }
+  }
+}
+
+.horarios {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: $texto-header;
+  font-weight: bold;
+  flex-wrap: nowrap;
+  overflow: auto;
+  text-align: center;
+}

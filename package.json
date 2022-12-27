@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-final-coderhouse-desarrollo-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frangomez1337/PreEntrega2GomezFranco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frangomez1337/PreEntrega2GomezFranco/issues"
+  },
+  "homepage": "https://github.com/frangomez1337/PreEntrega2GomezFranco#readme"
+}

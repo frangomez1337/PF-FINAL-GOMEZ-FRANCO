@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.imgProducts {
+  width: 150px;
+  height: 170px;
+}
+
+.logoInfoHeader {
+  background-color: rgb(141, 32, 32);
+}
+.logoInfoHeader div {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 10px 0 0;
+}
+.logoInfoHeader div img {
+  width: auto;
+  height: auto;
+}
+
+.horarios {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 1.2rem;
+  font-weight: bold;
+  flex-wrap: nowrap;
+  overflow: auto;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: #cf2626;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-right: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+nav ul li a:hover {
+  color: white;
+}
+
+.barraBusqueda {
+  background-color: #cf2626;
+}
