@@ -19,261 +19,245 @@
     <title>La Chacra - PetShop y Forrajería</title>
   </head>
   <body>
-    <header>
+    <!-- Código del Header -->
+    <header class="img-fluid logoInfoHeader">
+      <div>
+        <img class="img-fluid" src="imgs/banner1.jpg" alt="La Chacra" />
+      </div>
+    </header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-red">
       <div class="container-fluid">
-        <div class="row logoInfoHeader">
-          <div class="col-6">
-            <img class="img-fluid" src="imgs/logo.jfif" alt="La Chacra" />
-          </div>
-          <div class="col-6">
-            <div class="horarios">
-              Horarios: Lunes a Viernes 9.30hs a 13.30hs y de 16.30hs a 20.30hs
-            </div>
-            <div class="horarios">
-              Sábados de 9.30hs a 13.30hs y de 16.30hs a 20.30hs
-            </div>
-          </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/alimentos-caninos.html"
+                >Alimentos Caninos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/alimentos-felinos.html"
+                >Alimentos Felinos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/otros-alimentos.html"
+                >Otros Alimentos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/accesorios.html">Accesorios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="text"
+              placeholder="¿Qué estás buscando?"
+            />
+            <button class="btn btn-dark" type="button">Buscar</button>
+          </form>
         </div>
       </div>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-red">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#mynavbar"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/alimentos-caninos.html"
-                  >Alimentos Caninos</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/alimentos-felinos.html"
-                  >Alimentos Felinos</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/otros-alimentos.html"
-                  >Otros Alimentos</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/accesorios.html">Accesorios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/contacto.html">Contacto</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="text"
-                placeholder="¿Qué estás buscando?"
-              />
-              <button class="btn btn-dark" type="button">Buscar</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
+    </nav>
+    <!-- Contenido -->
     <main>
-      <h2 class="text-center">Ofertas</h2>
+      <h2 class="text-center pt-4 pb-4">Ofertas</h2>
       <div class="container text-center">
-        <div class="row">
-          <div class="col-md-4 col-sm-6">
-            <div>
-              <img class="imgProducts" src="imgs/comidaPerroUno.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
-            <div>
-              <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
-            <div>
-              <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
+        <div class="row pt-3">
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaPerroUno.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
           </div>
-          <div class="col-md-4 sm-6">
-            <div>
-              <img class="imgProducts" src="imgs/comidaGatoUno.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
-            <div>
-              <img class="imgProducts" src="imgs/comidaGatoDos.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
-            <div>
-              <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
           </div>
-          <div class="col-md-4 sm-6">
-            <div>
-              <img class="imgProducts" src="imgs/comidaPerroUno.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
-            <div>
-              <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
-            <div>
-              <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaGatoUno.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaGatoDos.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaPerroUno.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
           </div>
         </div>
       </div>
       <hr />
-      <h2 class="text-center">Más Vendidos</h2>
+      <h2 class="text-center pt-3 pb-5">Más Vendidos</h2>
       <div class="container text-center">
-        <div class="row">
-          <div class="col-md-4 col-sm-6">
-            <div>
-              <img class="imgProducts" src="imgs/comidaPerroUno.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
-            <div>
-              <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
-            <div>
-              <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
+        <div class="row pt-3">
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaPerroUno.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
           </div>
-          <div class="col-md-4 sm-6">
-            <div>
-              <img class="imgProducts" src="imgs/comidaGatoUno.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
-            <div>
-              <img class="imgProducts" src="imgs/comidaGatoDos.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
-            <div>
-              <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
           </div>
-          <div class="col-md-4 sm-6">
-            <div>
-              <img class="imgProducts" src="imgs/comidaPerroUno.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
-            <div>
-              <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
-            <div>
-              <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
-              <div>
-                Precio
-                <br />
-                Bolsa 15KG EXCELLENT
-              </div>
-            </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
           </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaGatoUno.jpg" />
+            <p class="p-2">
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaGatoDos.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaPerroUno.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <img class="imgProducts" src="imgs/comidaPerroDos.jpg" />
+            <p>
+              Precio
+              <br />
+              Bolsa 15KG EXCELLENT
+            </p>
+          </div>
+          <a class="pt-10" href="#">VOLVER ARRIBA</a>
         </div>
       </div>
+      <section></section>
     </main>
+    <!-- Código del Footer -->
     <footer>
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
-          <div class="col-6">
-            <div>
-              <a href="index.html">Inicio</a>
-              <a href="./pages/alimentos-caninos.html">Alimentos Caninos</a>
-              <a href="./pages/alimentos-felinos.html">Alimentos Felinos</a>
-            </div>
-            <div>
-              <a href="./pages/otros-alimentos.html">Otros Alimentos</a>
-              <a href="./pages/accesorios.html">Accesorios</a>
-              <a href="./pages/contacto.html">Contacto</a>
-            </div>
+          <div class="col-6 pt-4">
+            <p>ASDASD</p>
+          </div>
+          <div class="col-6 pt-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4816.810463083628!2d-64.2158006!3d-31.386581665543613!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7c7577dc547d1ef4!2sLA%20CHACRA-%20Pet%20Shop%20y%20Forrajeria!5e0!3m2!1ses-419!2sar!4v1672269294563!5m2!1ses-419!2sar"
+              width="350"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>
-      <section class="container-fluid text-center">
+      <section class="container-fluid text-center pt-3">
         <div>
-          Copyright © 2022 La Chacra. All rights reserved | Creada por Franco
-          Gomez
+          Copyright © 2022 La Chacra. All rights reserved | Creada por
+          <a href="#">Franco Gomez</a>
         </div>
       </section>
     </footer>

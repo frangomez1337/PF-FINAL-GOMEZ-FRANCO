@@ -4,22 +4,19 @@
   div {
     margin-left: 0;
     margin-right: 0;
-    padding: 0 10px 0 0;
+    padding: 0;
 
     img {
-      width: auto;
+      display: flex;
+      align-items: center;
+      width: 100%;
       height: auto;
     }
   }
 }
 
 .horarios {
-  display: flex;
-  align-items: center;
-  justify-content: end;
   font-size: $texto-header;
   font-weight: bold;
-  flex-wrap: nowrap;
-  overflow: auto;
-  text-align: center;
+  display: flex;
 }

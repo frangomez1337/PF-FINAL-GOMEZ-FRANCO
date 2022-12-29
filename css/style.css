@@ -19,22 +19,19 @@ body {
 .logoInfoHeader div {
   margin-left: 0;
   margin-right: 0;
-  padding: 0 10px 0 0;
+  padding: 0;
 }
 .logoInfoHeader div img {
-  width: auto;
+  display: flex;
+  align-items: center;
+  width: 100%;
   height: auto;
 }
 
 .horarios {
-  display: flex;
-  align-items: center;
-  justify-content: end;
   font-size: 1.2rem;
   font-weight: bold;
-  flex-wrap: nowrap;
-  overflow: auto;
-  text-align: center;
+  display: flex;
 }
 
 nav {
@@ -57,9 +54,22 @@ nav ul li a {
   font-size: 1.5rem;
 }
 nav ul li a:hover {
-  color: white;
+  color: black;
 }
 
 .barraBusqueda {
   background-color: #cf2626;
 }
+
+main {
+  background-color: #f57975;
+}
+
+footer {
+  background-color: #cf2626;
+}
+footer div {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
