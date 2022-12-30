@@ -14,55 +14,15 @@ body {
 }
 
 .logoInfoHeader {
-  background-color: rgb(141, 32, 32);
-}
-.logoInfoHeader div {
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0;
-}
-.logoInfoHeader div img {
-  display: flex;
-  align-items: center;
   width: 100%;
-  height: auto;
-}
-
-.horarios {
-  font-size: 1.2rem;
-  font-weight: bold;
-  display: flex;
-}
-
-nav {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  background-color: #cf2626;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-}
-nav ul li {
-  margin-right: 1rem;
-}
-nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.5rem;
-}
-nav ul li a:hover {
-  color: black;
 }
 
 .barraBusqueda {
   background-color: #cf2626;
 }
 
-main {
-  background-color: #f57975;
+h2 {
+  font-weight: 100 bold;
 }
 
 footer {
@@ -70,6 +30,16 @@ footer {
 }
 footer div {
   font-weight: bold;
+}
+footer div a:link,
+footer div a:visited,
+footer div a:active {
+  color: black;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  margin: 0 1rem 0 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

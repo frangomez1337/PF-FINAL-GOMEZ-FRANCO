@@ -19,71 +19,65 @@
     />
   </head>
   <body>
+    <!-- Código del Header -->
     <header>
+      <div>
+        <img
+          class="img-fluid logoInfoHeader"
+          src="../imgs/banner1.jpg"
+          alt="La Chacra"
+        />
+      </div>
+    </header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark barraBusqueda">
       <div class="container-fluid">
-        <div class="row logoInfoHeader">
-          <div class="col-6">
-            <img class="img-fluid" src="../imgs/logo.jfif" alt="La Chacra" />
-          </div>
-          <div class="col-6">
-            <div class="horarios">
-              Horarios: Lunes a Viernes 9.30hs a 13.30hs y de 16.30hs a 20.30hs
-            </div>
-            <div class="horarios">
-              Sábados de 9.30hs a 13.30hs y de 16.30hs a 20.30hs
-            </div>
-          </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="alimentos-caninos.html"
+                >Alimentos Caninos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="alimentos-felinos.html"
+                >Alimentos Felinos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="otros-alimentos.html"
+                >Otros Alimentos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="accesorios.html">Accesorios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="text"
+              placeholder="¿Qué estás buscando?"
+            />
+            <button class="btn btn-dark" type="button">Buscar</button>
+          </form>
         </div>
       </div>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-red">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#mynavbar"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="alimentos-caninos.html"
-                  >Alimentos Caninos</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="alimentos-felinos.html"
-                  >Alimentos Felinos</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="otros-alimentos.html"
-                  >Otros Alimentos</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="accesorios.html">Accesorios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="text"
-                placeholder="¿Qué estás buscando?"
-              />
-              <button class="btn btn-dark" type="button">Buscar</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
+    </nav>
     <main>
       <h2 class="text-center">Ofertas</h2>
       <div class="container text-center">
