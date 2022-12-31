@@ -8,9 +8,8 @@ body {
   height: 100vh;
 }
 
-.imgProducts {
-  width: 150px;
-  height: 170px;
+main h2 {
+  font-size: 4rem;
 }
 
 .logoInfoHeader {
@@ -26,8 +25,17 @@ h2 {
 }
 
 .textoProductos {
-  background-color: #cf2626;
+  background-color: #afaeae;
   font-weight: bold;
+}
+
+.imgProducts {
+  size-adjust: auto;
+}
+
+#botonVolverArriba {
+  width: min-content;
+  padding-bottom: 5px;
 }
 
 .card {
