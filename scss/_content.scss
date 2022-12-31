@@ -1,3 +1,29 @@
 h2 {
   font-weight: 100 bold;
 }
+
+.textoProductos {
+  background-color: #cf2626;
+  font-weight: bold;
+}
+
+.card {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+.card:hover,
+.card:focus-within {
+  transform: scale(1.05);
+}
+
+/*Verificacion sobre el dispositivo utilizado para ver si soporta hoover*/
+
+@media (hover) {
+  .card {
+    transition: transform 500ms ease;
+  }
+}
